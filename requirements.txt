@@ -1,0 +1,40 @@
+﻿# Core
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+lxml>=4.9.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Data Processing
+pandas>=2.0.0
+tiktoken>=0.5.0
+
+# Text Chunking
+langchain>=0.1.0
+langchain-text-splitters>=0.1.0
+
+# Embedding & Models
+sentence-transformers>=2.2.2
+torch>=2.0.0
+transformers>=4.30.0
+
+# Vector Store
+faiss-cpu>=1.7.4
+
+# BM25
+rank-bm25>=0.2.2
+
+# LLM
+openai>=1.10.0
+
+# API
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+pydantic>=2.0.0
+
+# Frontend
+streamlit>=1.25.0
+
+# Utilities
+loguru>=0.7.0
+tqdm>=4.65.0
